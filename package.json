@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon server.js",
-    "heroku-postbuild": "NPM_CONIG_PRODUCTION=false npm install --prefix Client npm run build --prefix Client"
+    "heroku-postbuild": "NPM_CONIG_PRODUCTION=false npm install --prefix Client && npm run build --prefix Client"
   },
   "author": "Joshua Onoja",
   "license": "ISC",
