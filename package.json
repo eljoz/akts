@@ -9,10 +9,6 @@
   
   },
 
-  "engines": {
-    "node": "10.16.0"
-},
-
   "author": "Joshua Onoja",
   "license": "ISC",
   "dependencies": {
