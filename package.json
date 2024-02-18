@@ -8,6 +8,10 @@
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install npm && run build"
   },
 
+  "engines": {
+    "node": "10.16.0"
+},
+
   "author": "Joshua Onoja",
   "license": "ISC",
   "dependencies": {
