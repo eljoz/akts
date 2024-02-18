@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server/server.js",
+    "start": "nodemon server.js",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install npm && run build",
 
     "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm run dev\"",
