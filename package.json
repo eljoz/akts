@@ -5,12 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install npm && run build",
-
-    "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm run dev\"",
-"install": "cd server && npm i && cd ../client && npm i --production=false",
-"build": "cd Client && npm run build",
-"render-build":"npm install && npm run build"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install npm && run build"
   },
 
   "author": "Joshua Onoja",
