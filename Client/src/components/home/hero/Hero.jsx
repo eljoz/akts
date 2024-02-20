@@ -7,7 +7,7 @@ const Hero = () => {
     <>
       <section className='hero'>
         <div className='container'>
-          <Heading title='Search Your Next Delivery Location ' subtitle='Get your package to its destination swiftly.' />
+          <Heading title='IT CAN ONLY GO FASTER ' subtitle='Get your package to its destination swiftly.' />
 
           <form className='flex'>
             <div className='box'>

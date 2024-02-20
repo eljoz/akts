@@ -1,21 +1,28 @@
 .hero {
-  background-image: url("../../../../public/images/banner.png");
+  /* background-image: url("../../../../public/images/banner.png"); */
+  background-image: url("../../../../public/images/web-banner\ 2.jpg");
+
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 90vh;
+  height: 80vh;
   width: 100%;
 }
 .hero .container {
-  padding-top: 15%;
+  padding-top: 10%;
 }
 .hero h1 {
-  color: #fff;
-  font-size: 60px;
+  color: #030121;
+  font-size: 65px;
 }
+
+
+
 .hero p {
-  color: #fff;
-  opacity: 0.8;
+  color: #fd6805ce;
+  font-size: 25px;
+  font-weight: bold;
+  
 }
 form {
   background-color: #fff;
@@ -48,10 +55,87 @@ form .box:nth-child(1) {
 form h4 {
   font-weight: 500;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 480px) {
   .hero .container {
-    padding-top: 30%;
+    padding-top: 10%;
   }
+  form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  form .box {
+    border-left: none;
+  }
+  form input {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .hero .container {
+    padding-top: 10%;
+  }
+  .hero {
+    /* background-image: url("../../../../public/images/banner.png"); */
+    background-image: url("../../../../public/images/web-banner.jpg");
+
+    /* background-image: url("../../../../public/images/plane.jpeg"); */
+  
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: contain;
+    /* background-size: cover; */
+    height: 50%;
+    width: 100vw;
+  }
+  .hero h1 {
+    color: #de6f0e;
+    font-size: 30px;
+    padding-left: 0px;
+    padding-right: 42vw;
+    font-weight: bolder;
+
+  }
+  .hero p {
+    color: #070000f8;
+    font-size: 25px;
+    font-weight: 100;
+    padding-left: 0px;
+    padding-right: 42vw;
+    
+  }
+  form {
+    background-color: #f6f2f2;
+    border-radius: 5px;
+    
+    margin-top: 20vh;
+    padding: 0;
+  }
+  form input {
+    padding: 5px;
+    width: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.2);
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+  form span {
+    font-size: 14px;
+    color: grey;
+  }
+  input::placeholder {
+    font-size: 17px;
+    color: black;
+  }
+  form .box {
+    padding: 15px;
+    border-left: 1px solid rgba(128, 128, 128, 0.2);
+  }
+  form .box:nth-child(1) {
+    border-left: none;
+  }
+  form h4 {
+    font-weight: 500;
+  }
+  
   form {
     display: flex;
     flex-wrap: wrap;
