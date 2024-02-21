@@ -4,7 +4,7 @@ import { list } from "../../data/Data"
 const RecentCard = () => {
   return (
     <>
-      <div className='content grid3 mtop'>
+      <div className='content grid3 mtop5'>
         {list.map((val, index) => {
           const { cover, category, location, name, price, type } = val
           return (
@@ -24,7 +24,7 @@ const RecentCard = () => {
               </div>
               <div className='button flex'>
                 <div>
-                  <button className='btn2'>{price}</button> <label htmlFor=''>/sqft</label>
+                  {/* <button className='btn2'>{price}</button> <label htmlFor=''></label> */}
                 </div>
                 <span>{type}</span>
               </div>

@@ -31,25 +31,25 @@ export const featured = [
     total: "more than 800 locations",
   },
   {
-    cover: "../images/hero/h2.png",
+    cover: "../images/truck1.jpeg",
     name: "Way Bill",
-    total: "Intra State",
+    total: "Truck Service",
   },
   {
-    cover: "../images/hero/h3.png",
+    cover: "../images/plane.jpeg",
     name: "Way Bill",
-    total: "Inter state",
+    total: "International",
   },
   {
     cover: "../images/hero/h4.png",
-    name: "Pick Up",
+    name: "Pick Up & Drop Off",
     total: "",
   },
-  {
-    cover: "../images/hero/h6.png",
-    name: "Drop Off",
-    total: "",
-  },
+  // {
+  //   cover: "../images/hero/h6.png",
+  //   name: "Drop Off",
+  //   total: "",
+  // },
 ]
 export const list = [
   {
@@ -57,8 +57,8 @@ export const list = [
     cover: "../images/iko.png",
     name: "Ikorodu Garage",
     location: "Ikorodu",
-    category: "swift delivery",
-    price: "as low as 4000",
+    category: "",
+    price: "",
     type: "",
   },
   {
@@ -66,8 +66,8 @@ export const list = [
     cover: "../images/ikotun.png",
     name: "Ikotun",
     location: "Ikotun",
-    category: "swift delivery",
-    price: "as low as 4000",
+    category: "",
+    price: "",
     type: "",
   },
   
@@ -76,8 +76,8 @@ export const list = [
     cover: "../images/ikeja.png",
     name: "Ikeja",
     location: "Ikeja",
-    category: "swift delivery",
-    price: "as low as 4000",
+    category: "",
+    price: "",
     type: "",
   },
   {
@@ -85,8 +85,8 @@ export const list = [
     cover: "../images/badagry.png",
     name: "Badagry",
     location: "Badagry",
-    category: "swift delivery",
-    price: "as low as 4000",
+    category: "",
+    price: "",
     type: "",
   },
   {
@@ -94,8 +94,8 @@ export const list = [
     cover: "../images/lekki.png",
     name: "Lekki",
     location: "Lekki",
-    category: "Lekki",
-    price: "Lekki",
+    category: "",
+    price: "",
     type: "",
   },
   {
@@ -103,8 +103,8 @@ export const list = [
     cover: "../images/ota.png",
     name: "Sango Ota",
     location: "Sango",
-    category: "Sango",
-    price: "Sango",
+    category: "",
+    price: "",
     type: "",
   },
 ]

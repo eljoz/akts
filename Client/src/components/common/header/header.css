@@ -16,12 +16,12 @@ header a {
   font-weight: 500;
 }
 header a:hover {
-  color: #27ae60;
+  color: #e45c0d;
 }
 header span {
   width: auto;
   padding: 0px 6px;
-  background: #27ae60;
+  background: #eb8407;
   border-radius: 50px;
   color: #ffffff;
   margin-right: 4px;
@@ -53,10 +53,10 @@ header .toggle {
   }
   header .small {
     position: absolute;
-    top: 10vh;
+    top: 14vh;
     left: 0;
     width: 100%;
-    background-color: #27ae60;
+    background-color: #ef8f08;
     padding: 20px;
   }
   header li a {

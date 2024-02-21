@@ -1,0 +1,37 @@
+{
+  "name": "actionsharply",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "heroku-postbuild": "cd Client && npm install && npm run build"
+  },
+  "author": "Joshua Onoja",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.28.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mailgun-js": "^0.22.0",
+    "mongoose": "^6.1.5",
+    "multer": "^1.4.4",
+    "streamifier": "^0.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "tailwindcss": "^3.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eljoz/actionsharply.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eljoz/actionsharply/issues"
+  },
+  "homepage": "https://github.com/eljoz/actionsharply#readme",
+  "description": ""
+}
